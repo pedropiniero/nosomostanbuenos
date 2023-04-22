@@ -66,16 +66,18 @@ background-color: black;
 
 .publicidad1{
   background-color: brown;
-  background-image: url("/multimedia/powerade.jpg");
-  background-size: cover;
-  background-position: 500px;
-  display: flex;
-  justify-content: start;
-  height: 800px;
-  width: 250px;
+  background-image: url("multimedia/.powerade");
 }
 
-
+.powerade{
+  height: 800px;
+  width: 250px;
+  display: flex;
+  justify-content: start;
+  margin: 0px;
+  background-position: center;
+  background-size: cover;
+}
 
 .contenidoprincipal{
   background-color: rgb(5, 117, 79);
@@ -250,17 +252,14 @@ background-color: black;
 
 .publicidad2{
   background-color: aquamarine;
-  background-image: url("/multimedia/adidas.jpg");
-  background-size: cover;
-  background-position: 570px;
   display: flex;
   justify-content: end;
-  position: right;
+}
+
+.adidas{
   height: 800px;
   width: 250px;
 }
-
-
 
 .piedepagina{ 
   background-color: rgb(255, 185, 99);
@@ -275,19 +274,18 @@ background-color: black;
 }
 
 .paginaprincipal{
-display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
-grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+display: grid; 
+grid-template-columns: 500px 500px 500px; 
+grid-template-rows: auto;
 grid-template-areas:
-"header header header header header"
-"nav nav nav nav nav"
-"aside main main main aside"
-"aside main main main aside"
-"footer footer footer footer footer"
+"header header header"
+"nav nav nav"
+"aside main aside"
+"footer footer footer"
 }
 
-.fondopagina{
-  grid-area: haeder;
+.fondonstb{
+  grid-area: header;
 }
 
 .menu{
