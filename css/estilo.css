@@ -1162,3 +1162,18 @@ grid-template-areas:
   height: 85px;
 }
 }
+
+.parrafoentrenamientoseleccion{
+  color: black;
+  display: flex;
+  font-weight: normal;
+  margin: 0px;
+  font-size: 14px;
+}
+.fotoentrenamientoseleccionlectura{
+  height: 300px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
