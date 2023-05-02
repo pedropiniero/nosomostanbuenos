@@ -45,9 +45,14 @@ justify-content: space-evenly;
   width: 250px;
 }
 
+.contenidoprincipal{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .noticias{
   color: rgb(255, 255, 255);
-  margin: 0px;
+  margin: 10px;
   text-decoration: none;
   list-style-type: none;
   font-size: 15px;
@@ -56,12 +61,11 @@ justify-content: space-evenly;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  gap: 60px 60px;
-  padding: 10px;
+  gap: 10px 10px;
 }
 
 .festejoargentina{
-  height: 200px;
+  height: 250px;
 }
 
 .fotofestejoargentina{
@@ -76,7 +80,7 @@ justify-content: space-evenly;
   flex-wrap: wrap;
   text-align: start;
   align-items: baseline;
-  width: 300px;
+  width: 400px;
   background-color: rgba(0, 0, 0, 0.671);
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px; 
@@ -85,7 +89,7 @@ justify-content: space-evenly;
 }
 
 .largadaarabia{
-  height: 200px;
+  height: 250px;
 }
 
 .fotolargadaarabia{
@@ -100,7 +104,7 @@ justify-content: space-evenly;
   flex-wrap: wrap;
   text-align: start;
   align-items: baseline;
-  width: 300px;
+  width: 400px;
   background-color: rgba(0, 0, 0, 0.671);
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px; 
@@ -109,7 +113,7 @@ justify-content: space-evenly;
 }
 
 .festejopumas{
-  height: 200px;
+  height: 250px;
 }
 
 .fotofestejopumas{
@@ -124,16 +128,16 @@ justify-content: space-evenly;
   flex-wrap: wrap;
   text-align: start;
   align-items: baseline;
-  width: 300px;
+  width: 400px;
   background-color: rgba(0, 0, 0, 0.671);
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px; 
   margin: 0px;
-  bottom: 60px;
+  bottom: 40px;
 }
 
 .entrenamientoseleccion{
-  height: 200px;
+  height: 250px;
 }
 
 .fotoentrenamientoseleccion{
@@ -148,7 +152,7 @@ justify-content: space-evenly;
   flex-wrap: wrap;
   text-align: start;
   align-items: baseline;
-  width: 300px;
+  width: 400px;
   background-color: rgba(0, 0, 0, 0.671);
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px; 
@@ -157,7 +161,7 @@ justify-content: space-evenly;
 }
 
 .festejocheco{
-  height: 200px;
+  height: 250px;
 }
 
 .fotofestejocheco{
@@ -172,7 +176,7 @@ justify-content: space-evenly;
   flex-wrap: wrap;
   text-align: start;
   align-items: baseline;
-  width: 300px;
+  width: 400px;
   background-color: rgba(0, 0, 0, 0.671);
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px; 
@@ -181,7 +185,7 @@ justify-content: space-evenly;
 }
 
 .lakers{
-  height: 200px;
+  height: 250px;
 }
 
 .fotolakers{
@@ -196,7 +200,7 @@ justify-content: space-evenly;
   flex-wrap: wrap;
   text-align: start;
   align-items: baseline;
-  width: 300px;
+  width: 400px;
   background-color: rgba(0, 0, 0, 0.671);
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px; 
@@ -326,6 +330,22 @@ margin-bottom: 5px;
   right: 35px;
 }
 
+.fotodenotas{
+  height: 300px;
+  width: auto;
+  display: flex;
+  margin: 5px;
+}
+
+.textodenotas{
+  color: black;
+  display: flex;
+  font-weight: normal;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5px;
+}
+
 .paginaprincipal{
 display: grid;
 grid-template-columns: 0.5fr 1fr 1fr 0.5fr; 
@@ -361,17 +381,7 @@ grid-template-areas:
   grid-area: footer;
 }
 
-@media screen and (max-width:1543px) {
-  .fondonstb{
-  width: 950px;
-  height: auto;
-  }
-  .paginaprincipal{
-    grid-template-rows: 0.1fr 0.01fr 1fr 0.1fr;
-  }
-}
-
-@media screen and (max-width:1395px) {
+@media screen and (max-width:1346px) {
   .fondonstb{
   width: 880px;
   height: auto;
@@ -380,11 +390,11 @@ grid-template-areas:
     grid-template-rows: 0.1fr 0.01fr 1fr 0.1fr;
   }
   .festejoargentina{
-    height: 100px;
+    height: 200px;
   }
   .fotofestejoargentina{
-    width: 300px;
-    height: 150px;
+    width: 350px;
+    height: 200px;
     display: flex;
   }
   .titulofestejoargentina{
@@ -393,20 +403,19 @@ grid-template-areas:
     flex-wrap: wrap;
     text-align: start;
     align-items: baseline;
-    width: 300px;
+    width: 350px;
     background-color: rgba(0, 0, 0, 0.671);
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px; 
     margin: 0px;
-    bottom:40px
   }
   .largadaarabia{
-    height: 100px;
+    height: 200px;
   }
   
   .fotolargadaarabia{
-    width: 300px;
-    height: 150px;
+    width: 350px;
+    height: 200px;
     display: flex;
   }
   
@@ -416,21 +425,20 @@ grid-template-areas:
     flex-wrap: wrap;
     text-align: start;
     align-items: baseline;
-    width: 300px;
+    width: 350px;
     background-color: rgba(0, 0, 0, 0.671);
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px; 
     margin: 0px;
-    bottom:40px;
   }
   
   .festejopumas{
-    height: 100px;
+    height: 200px;
   }
   
   .fotofestejopumas{
-    width: 300px;
-    height: 150px;
+    width: 350px;
+    height: 200px;
     display: flex;
   }
   
@@ -440,7 +448,7 @@ grid-template-areas:
     flex-wrap: wrap;
     text-align: start;
     align-items: baseline;
-    width: 300px;
+    width: 350px;
     background-color: rgba(0, 0, 0, 0.671);
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px; 
@@ -449,12 +457,12 @@ grid-template-areas:
   }
   
   .entrenamientoseleccion{
-    height: 100px;
+    height: 200px;
   }
   
   .fotoentrenamientoseleccion{
-    width: 300px;
-    height: 150px;
+    width: 350px;
+    height: 200px;
     display: flex;
   }
   
@@ -464,21 +472,20 @@ grid-template-areas:
     flex-wrap: wrap;
     text-align: start;
     align-items: baseline;
-    width: 300px;
+    width: 350px;
     background-color: rgba(0, 0, 0, 0.671);
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px; 
     margin: 0px;
-    bottom:40px;
   }
   
   .festejocheco{
-    height: 100px;
+    height: 200px;
   }
   
   .fotofestejocheco{
-    width: 300px;
-    height: 150px;
+    width: 350px;
+    height: 200px;
     display: flex;
   }
   
@@ -488,21 +495,20 @@ grid-template-areas:
     flex-wrap: wrap;
     text-align: start;
     align-items: baseline;
-    width: 300px;
+    width: 350px;
     background-color: rgba(0, 0, 0, 0.671);
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px; 
     margin: 0px;
-    bottom:40px;
   }
   
   .lakers{
-    height: 100px;
+    height: 200px;
   }
   
   .fotolakers{
-    width: 300px;
-    height: 150px;
+    width: 350px;
+    height: 200px;
     display: flex;
   }
   
@@ -512,31 +518,27 @@ grid-template-areas:
     flex-wrap: wrap;
     text-align: start;
     align-items: baseline;
-    width: 300px;
+    width: 350px;
     background-color: rgba(0, 0, 0, 0.671);
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px; 
     margin: 0px;
-    bottom:40px;
   }
 }
 
-@media screen and (max-width:1196px) {
+@media screen and (max-width:1247px) {
   .fondonstb{
-    width: 751px;
+    width: 680px;
     height: auto;
   }
   .paginaprincipal{
     grid-template-rows: 0.1fr 0.01fr 1fr 0.1fr;
   }
-  .noticias{
-  margin-bottom: 50px;
-  }
 }
 
 @media screen and (max-width:950px) {
   .fondonstb{
-    width: 681px;
+    width: 640px;
     height: auto;
   }
   .nombredepaginas{
@@ -547,7 +549,7 @@ grid-template-areas:
   }
 }
 
-  @media screen and (max-width:840px) {
+  @media screen and (max-width:880px) {
     .fondonstb{
       width: 600px;
       height: auto;
@@ -570,13 +572,13 @@ grid-template-areas:
     }
   }
 
-    @media screen and (max-width:725px) {
+    @media screen and (max-width:780px) {
       .fondonstb{
-        width: 500px;
+        width: 600px;
         height: auto;
       }
       .nombredepaginas{
-        font-size: 8px;
+        font-size: 10px;
       }
       .paginaprincipal{
         grid-template-rows: 0.1fr 0.01fr 1fr 0.1fr;
@@ -848,7 +850,7 @@ grid-template-areas:
       }
 }
 
-@media screen and (max-width:620px) {
+@media screen and (max-width:630px) {
   .paginaprincipal{
     display: grid;
     grid-template-columns: 1fr;
@@ -897,11 +899,11 @@ grid-template-areas:
     margin:10px;
   }
   .festejoargentina{
-    height: 140px;
+    height: 200px;
   }
   .fotofestejoargentina{
-    width: 250px;
-    height: 140px;
+    width: 300px;
+    height: 200px;
     display: flex;
   }
   
@@ -911,19 +913,19 @@ grid-template-areas:
     flex-wrap: wrap;
     text-align: start;
     align-items: baseline;
-    width: 250px;
+    width: 300px;
     background-color: rgba(0, 0, 0, 0.671);
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px; 
     margin: 0px;
   }
   .largadaarabia{
-    height: 140px;
+    height: 200px;
   }
   
   .fotolargadaarabia{
-    width: 250px;
-    height: 140px;
+    width: 300px;
+    height: 200px;
     display: flex;
   }
   
@@ -933,7 +935,7 @@ grid-template-areas:
     flex-wrap: wrap;
     text-align: start;
     align-items: baseline;
-    width: 250px;
+    width: 300px;
     background-color: rgba(0, 0, 0, 0.671);
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px; 
@@ -941,12 +943,12 @@ grid-template-areas:
   }
   
   .festejopumas{
-    height: 140px;
+    height: 200px;
   }
   
   .fotofestejopumas{
-    width: 250px;
-    height: 140px;
+    width: 300px;
+    height: 200px;
     display: flex;
   }
   
@@ -956,7 +958,7 @@ grid-template-areas:
     flex-wrap: wrap;
     text-align: start;
     align-items: baseline;
-    width: 250px;
+    width: 300px;
     background-color: rgba(0, 0, 0, 0.671);
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px; 
@@ -964,12 +966,12 @@ grid-template-areas:
   }
   
   .entrenamientoseleccion{
-    height: 140px;
+    height: 200px;
   }
   
   .fotoentrenamientoseleccion{
-    width: 250px;
-    height: 140px;
+    width: 300px;
+    height: 200px;
     display: flex;
   }
   
@@ -979,7 +981,7 @@ grid-template-areas:
     flex-wrap: wrap;
     text-align: start;
     align-items: baseline;
-    width: 250px;
+    width: 300px;
     background-color: rgba(0, 0, 0, 0.671);
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px; 
@@ -987,12 +989,12 @@ grid-template-areas:
   }
   
   .festejocheco{
-    height: 140px;
+    height: 200px;
   }
   
   .fotofestejocheco{
-    width: 250px;
-    height: 140px;
+    width: 300px;
+    height: 200px;
     display: flex;
   }
   
@@ -1002,7 +1004,7 @@ grid-template-areas:
     flex-wrap: wrap;
     text-align: start;
     align-items: baseline;
-    width: 250px;
+    width: 300px;
     background-color: rgba(0, 0, 0, 0.671);
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px; 
@@ -1010,12 +1012,12 @@ grid-template-areas:
   }
   
   .lakers{
-    height: 140px;
+    height: 200px;
   }
   
   .fotolakers{
-    width: 250px;
-    height: 140px;
+    width: 300px;
+    height: 200px;
     display: flex;
   }
   
@@ -1025,7 +1027,7 @@ grid-template-areas:
     flex-wrap: wrap;
     text-align: start;
     align-items: baseline;
-    width: 250px;
+    width: 300px;
     background-color: rgba(0, 0, 0, 0.671);
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px; 
@@ -1043,7 +1045,7 @@ grid-template-areas:
     text-align: start;
     margin-top: 10px;
     margin-left: 10PX;
-    font-size: 8px;
+    font-size: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   
@@ -1052,7 +1054,7 @@ grid-template-areas:
     display: flex;
     text-align: start;
     margin-left: 10px;
-    font-size: 6px;
+    font-size: 8px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight:normal;
   }
@@ -1086,7 +1088,7 @@ grid-template-areas:
   
   .nombrevisita{
     color: black;
-    font-size: 6px;
+    font-size: 8px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
   }
@@ -1097,7 +1099,7 @@ grid-template-areas:
   
   .correovisita{
     color:black;
-    font-size: 6px;
+    font-size: 8px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
   }
@@ -1108,7 +1110,7 @@ grid-template-areas:
   
   .mensajevisita{
     color: black;
-    font-size: 6px;
+    font-size: 8px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
   }
@@ -1163,17 +1165,3 @@ grid-template-areas:
 }
 }
 
-.parrafoentrenamientoseleccion{
-  color: black;
-  display: flex;
-  font-weight: normal;
-  margin: 0px;
-  font-size: 14px;
-}
-.fotoentrenamientoseleccionlectura{
-  height: 300px;
-  width: auto;
-  display: flex;
-  justify-content: center;
-  margin: 5px;
-}

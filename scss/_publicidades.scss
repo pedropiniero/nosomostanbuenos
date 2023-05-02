@@ -1,0 +1,21 @@
+.publicidad1{
+    background-color: brown;
+    background-image: url("/multimedia/powerade.jpg");
+    background-size: cover;
+    background-position: 500px;
+    display: flex;
+    justify-content: start;
+    height: 800px;
+    width: 250px;
+}
+.publicidad2{
+    background-color: aquamarine;
+    background-image: url("/multimedia/adidas.jpg");
+    background-size: cover;
+    background-position: 570px;
+    display: flex;
+    justify-content: end;
+    position: right;
+    height: 800px;
+    width: 250px;
+}

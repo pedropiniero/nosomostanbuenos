@@ -1,0 +1,28 @@
+.paginaprincipal{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 0.5fr; 
+    grid-template-rows: 0.2fr 0.01fr 1fr 0.2fr;
+    grid-template-areas:
+    "header header header header"
+    "nav nav nav nav"
+    "aside1 main main aside"
+    "footer footer footer footer";
+    & .fondopagina{
+        grid-area: header;
+    }
+    & .menu{
+        grid-area: nav;
+    }
+    & .publicidad1{
+        grid-area: aside1;
+    }
+    & .contenidoprincipal{
+        grid-area: main;
+    }
+    & .publicidad2{
+        grid-area: aside;
+    }
+    & .piedepagina{
+        grid-area: footer;
+    }
+}

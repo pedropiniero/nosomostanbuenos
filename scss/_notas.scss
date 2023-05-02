@@ -1,0 +1,165 @@
+.contenidoprincipal{
+    display: flex;
+    flex-wrap: wrap;
+    & .noticias{
+        color: rgb(255, 255, 255);
+        margin: 10px;
+        text-decoration: none;
+        list-style-type: none;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: arial;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 10px 10px;
+    }
+}
+
+.fotodenotas{
+    height: $altoimagennota;
+    width: $anchoimagennota;
+    display: flex;
+    margin: 5px;
+}
+
+.textodenotas{
+    color: black;
+    display: flex;
+    font-weight: normal;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+}
+
+.festejoargentina{
+    height: 250px;
+    & .fotofestejoargentina{
+        width: $anchoimagenmenu;
+        height: $altoimagenmenu;
+        display: flex;
+    }
+    & .titulofestejoargentina{
+        position:relative;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: start;
+        align-items: baseline;
+        width: 400px;
+        background-color: $colortitulonotas;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px; 
+        margin: 0px;
+        bottom:40px
+    }
+}
+
+.largadaarabia{
+    height: 250px;
+    & .fotolargadaarabia{
+        width: $anchoimagenmenu;
+        height: $altoimagenmenu;
+        display: flex;
+    }
+    & .titulolargadaarabia{
+        position:relative;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: start;
+        align-items: baseline;
+        width: 400px;
+        background-color: $colortitulonotas;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px; 
+        margin: 0px;
+        bottom:40px;
+    }
+}
+
+.festejopumas{
+    height: 250px;
+    & .fotofestejopumas{
+        width: $anchoimagenmenu;
+        height: $altoimagenmenu;
+        display: flex;
+    }
+    & .titulofestejopumas{
+        position:relative;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: start;
+        align-items: baseline;
+        width: 400px;
+        background-color: $colortitulonotas;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px; 
+        margin: 0px;
+        bottom: 40px;
+    }
+}
+
+.entrenamientoseleccion{
+    height: 250px;
+    & .fotoentrenamientoseleccion{
+        width: $anchoimagenmenu;
+        height: $altoimagenmenu;
+        display: flex;
+    }
+    & .tituloentrenamientoseleccion{
+        position:relative;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: start;
+        align-items: baseline;
+        width: 400px;
+        background-color: $colortitulonotas;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px; 
+        margin: 0px;
+        bottom:40px;
+    }
+}
+
+.festejocheco{
+    height: 250px;
+    & .fotofestejocheco{
+        width: $anchoimagenmenu;
+        height: $altoimagenmenu;
+        display: flex;
+    }
+    & .titulofestejocheco{
+        position:relative;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: start;
+        align-items: baseline;
+        width: 400px;
+        background-color: $colortitulonotas;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px; 
+        margin: 0px;
+        bottom:40px;
+    }
+}
+
+.lakers{
+    height: 250px;
+    & .fotolakers{
+        width: $anchoimagenmenu;
+        height: $altoimagenmenu;
+        display: flex;
+    }
+    & .titulolakers{
+        position:relative;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: start;
+        align-items: baseline;
+        width: 400px;
+        background-color: $colortitulonotas;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px; 
+        margin: 0px;
+        bottom:40px;
+    }
+}
