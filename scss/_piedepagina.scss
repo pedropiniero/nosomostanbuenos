@@ -90,4 +90,9 @@
     position: fixed;
     bottom: 35px;
     right: 35px;
+    background-image:linear-gradient(to left, #fe5757, #fdde59);
+    border-radius: 100%;
+    animation-name: saltos;
+    animation-duration:1s;
+    animation-delay: 1s;
 }

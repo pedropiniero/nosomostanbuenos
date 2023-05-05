@@ -2,6 +2,23 @@ html {
   font-size: 62.5%;
 }
 
+@keyframes saltos {
+  0% {
+    bottom: 35px;
+  }
+  25% {
+    bottom: 70px;
+  }
+  50% {
+    bottom: 35px;
+  }
+  75% {
+    bottom: 70px;
+  }
+  100% {
+    bottom: 35px;
+  }
+}
 .fondopagina {
   background-color: black;
   display: flex;
@@ -53,19 +70,24 @@ html {
   gap: 10px 10px;
 }
 
-.fotodenotas {
-  height: 300px;
+.notas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.notas .fotodenotas {
+  height: 360px;
   width: auto;
   display: flex;
   margin: 5px;
 }
-
-.textodenotas {
+.notas .textodenotas {
   color: black;
   display: flex;
   font-weight: normal;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
   margin: 5px;
 }
 
@@ -135,6 +157,28 @@ html {
   bottom: 40px;
 }
 
+.bajanadal {
+  height: 250px;
+}
+.bajanadal .fotobajanadal {
+  width: 400px;
+  height: 250px;
+  display: flex;
+}
+.bajanadal .titulobajanadal {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: start;
+  align-items: baseline;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.671);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin: 0px;
+  bottom: 40px;
+}
+
 .entrenamientoseleccion {
   height: 250px;
 }
@@ -166,6 +210,28 @@ html {
   display: flex;
 }
 .festejocheco .titulofestejocheco {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: start;
+  align-items: baseline;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.671);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin: 0px;
+  bottom: 40px;
+}
+
+.alcaraz {
+  height: 250px;
+}
+.alcaraz .fotoalcaraz {
+  width: 400px;
+  height: 250px;
+  display: flex;
+}
+.alcaraz .tituloalcaraz {
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -316,12 +382,17 @@ html {
   position: fixed;
   bottom: 35px;
   right: 35px;
+  background-image: linear-gradient(to left, #fe5757, #fdde59);
+  border-radius: 100%;
+  animation-name: saltos;
+  animation-duration: 1s;
+  animation-delay: 1s;
 }
 
 .paginaprincipal {
   display: grid;
   grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
-  grid-template-rows: 0.2fr 0.01fr 1fr 0.2fr;
+  grid-template-rows: 0.1fr 0.01fr 1fr 0.1fr;
   grid-template-areas: "header header header header" "nav nav nav nav" "aside1 main main aside" "footer footer footer footer";
 }
 .paginaprincipal .fondopagina {

@@ -4,8 +4,56 @@ $colorpiedepagina: rgb(210, 210, 210);
 $colortitulonotas: rgba(0, 0, 0, 0.671);
 $altoimagenmenu: 250px;
 $anchoimagenmenu: 400px;
-$altoimagennota: 300px;
+$altoimagennota: 360px;
 $anchoimagennota: auto;
-
-
-
+@mixin espaciofoto{
+    height: 250px;
+}
+@mixin tamañofoto{
+    width: $anchoimagenmenu;
+    height: $altoimagenmenu;
+    display: flex;
+}
+@mixin titulonotas{
+    position:relative;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    align-items: baseline;
+    width: 400px;
+    background-color: $colortitulonotas;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px; 
+    margin: 0px;
+    bottom:40px;
+}
+@mixin fotonotas {
+    height: $altoimagennota;
+    width: $anchoimagennota;
+    display: flex;
+    margin: 5px;
+}
+@mixin textonotas {
+    color: black;
+    display: flex;
+    font-weight: normal;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: 5px;
+}
+@keyframes saltos{
+    0% {
+        bottom: 35px;
+    }
+    25% {
+        bottom: 70px;
+    }
+    50% {
+        bottom: 35px;
+    }
+    75% {bottom: 70px;
+    }
+    100% {bottom: 35px;
+    }
+}

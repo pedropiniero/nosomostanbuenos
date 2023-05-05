@@ -16,150 +16,94 @@
     }
 }
 
-.fotodenotas{
-    height: $altoimagennota;
-    width: $anchoimagennota;
+.notas{
     display: flex;
-    margin: 5px;
-}
-
-.textodenotas{
-    color: black;
-    display: flex;
-    font-weight: normal;
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+    & .fotodenotas{
+        @include fotonotas;
+    }
+    & .textodenotas{
+        @include textonotas;
+    }
 }
 
 .festejoargentina{
-    height: 250px;
+    @include espaciofoto;
     & .fotofestejoargentina{
-        width: $anchoimagenmenu;
-        height: $altoimagenmenu;
-        display: flex;
+        @include tamañofoto;
     }
     & .titulofestejoargentina{
-        position:relative;
-        display: flex;
-        flex-wrap: wrap;
-        text-align: start;
-        align-items: baseline;
-        width: 400px;
-        background-color: $colortitulonotas;
-        border-top-right-radius: 8px;
-        border-bottom-right-radius: 8px; 
-        margin: 0px;
-        bottom:40px
+        @include titulonotas;
     }
 }
 
 .largadaarabia{
-    height: 250px;
+    @include espaciofoto;
     & .fotolargadaarabia{
-        width: $anchoimagenmenu;
-        height: $altoimagenmenu;
-        display: flex;
+        @include tamañofoto;
     }
     & .titulolargadaarabia{
-        position:relative;
-        display: flex;
-        flex-wrap: wrap;
-        text-align: start;
-        align-items: baseline;
-        width: 400px;
-        background-color: $colortitulonotas;
-        border-top-right-radius: 8px;
-        border-bottom-right-radius: 8px; 
-        margin: 0px;
-        bottom:40px;
+        @include titulonotas;
     }
 }
 
 .festejopumas{
-    height: 250px;
+    @include espaciofoto;
     & .fotofestejopumas{
-        width: $anchoimagenmenu;
-        height: $altoimagenmenu;
-        display: flex;
+        @include tamañofoto;
     }
     & .titulofestejopumas{
-        position:relative;
-        display: flex;
-        flex-wrap: wrap;
-        text-align: start;
-        align-items: baseline;
-        width: 400px;
-        background-color: $colortitulonotas;
-        border-top-right-radius: 8px;
-        border-bottom-right-radius: 8px; 
-        margin: 0px;
-        bottom: 40px;
+        @include titulonotas;
+    }
+}
+
+.bajanadal{
+    @include espaciofoto;
+    & .fotobajanadal{
+        @include tamañofoto;
+    }
+    & .titulobajanadal{
+        @include titulonotas;
     }
 }
 
 .entrenamientoseleccion{
-    height: 250px;
+    @include espaciofoto;
     & .fotoentrenamientoseleccion{
-        width: $anchoimagenmenu;
-        height: $altoimagenmenu;
-        display: flex;
+        @include tamañofoto;
     }
     & .tituloentrenamientoseleccion{
-        position:relative;
-        display: flex;
-        flex-wrap: wrap;
-        text-align: start;
-        align-items: baseline;
-        width: 400px;
-        background-color: $colortitulonotas;
-        border-top-right-radius: 8px;
-        border-bottom-right-radius: 8px; 
-        margin: 0px;
-        bottom:40px;
+        @include titulonotas;
     }
 }
 
 .festejocheco{
-    height: 250px;
+    @include espaciofoto;
     & .fotofestejocheco{
-        width: $anchoimagenmenu;
-        height: $altoimagenmenu;
-        display: flex;
+        @include tamañofoto;
     }
     & .titulofestejocheco{
-        position:relative;
-        display: flex;
-        flex-wrap: wrap;
-        text-align: start;
-        align-items: baseline;
-        width: 400px;
-        background-color: $colortitulonotas;
-        border-top-right-radius: 8px;
-        border-bottom-right-radius: 8px; 
-        margin: 0px;
-        bottom:40px;
+        @include titulonotas;
+    }
+}
+
+.alcaraz{
+    @include espaciofoto;
+    & .fotoalcaraz{
+        @include tamañofoto;
+    }
+    & .tituloalcaraz{
+        @include titulonotas;
     }
 }
 
 .lakers{
-    height: 250px;
+    @include espaciofoto;
     & .fotolakers{
-        width: $anchoimagenmenu;
-        height: $altoimagenmenu;
-        display: flex;
+        @include tamañofoto;
     }
     & .titulolakers{
-        position:relative;
-        display: flex;
-        flex-wrap: wrap;
-        text-align: start;
-        align-items: baseline;
-        width: 400px;
-        background-color: $colortitulonotas;
-        border-top-right-radius: 8px;
-        border-bottom-right-radius: 8px; 
-        margin: 0px;
-        bottom:40px;
+        @include titulonotas;
     }
 }
