@@ -606,15 +606,15 @@
     border-bottom-right-radius: 8px;
     margin: 0px;
   }
-  .paginaprincipal .noticias .bajandal {
+  .paginaprincipal .noticias .bajanadal {
     height: 200px;
   }
-  .paginaprincipal .noticias .bajandal .fotobajanadal {
+  .paginaprincipal .noticias .bajanadal .fotobajanadal {
     width: 300px;
     height: 200px;
     display: flex;
   }
-  .paginaprincipal .noticias .bajandal .titulobajanadal {
+  .paginaprincipal .noticias .bajanadal .titulobajanadal {
     position: relative;
     display: flex;
     flex-wrap: wrap;
