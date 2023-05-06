@@ -67,6 +67,27 @@
     margin: 0px;
     bottom: 60px;
   }
+  .paginaprincipal .bajanadal {
+    height: 200px;
+  }
+  .paginaprincipal .bajanadal .fotobajanadal {
+    width: 350px;
+    height: 200px;
+    display: flex;
+  }
+  .paginaprincipal .bajanadal .titulobajanadal {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    align-items: baseline;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 0px;
+    bottom: 60px;
+  }
   .paginaprincipal .entrenamientoseleccion {
     height: 200px;
   }
@@ -106,6 +127,27 @@
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     margin: 0px;
+  }
+  .paginaprincipal .alcaraz {
+    height: 200px;
+  }
+  .paginaprincipal .alcaraz .fotoalcaraz {
+    width: 350px;
+    height: 200px;
+    display: flex;
+  }
+  .paginaprincipal .alcaraz .tituloalcaraz {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    align-items: baseline;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 0px;
+    bottom: 60px;
   }
   .paginaprincipal .lakers {
     height: 200px;
@@ -270,6 +312,27 @@
     margin: 0px;
     bottom: 40px;
   }
+  .paginaprincipal .noticias .bajanadal {
+    height: 50px;
+  }
+  .paginaprincipal .noticias .bajanadal .fotobajanadal {
+    width: 200px;
+    height: 100px;
+    display: flex;
+  }
+  .paginaprincipal .noticias .bajanadal .titulobajanadal {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    align-items: baseline;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 0px;
+    bottom: 40px;
+  }
   .paginaprincipal .noticias .entrenamientoseleccion {
     height: 50px;
   }
@@ -311,6 +374,27 @@
     border-bottom-right-radius: 8px;
     margin: 0px;
     bottom: 30px;
+  }
+  .paginaprincipal .noticias .alcaraz {
+    height: 50px;
+  }
+  .paginaprincipal .noticias .alcaraz .fotoalcaraz {
+    width: 200px;
+    height: 100px;
+    display: flex;
+  }
+  .paginaprincipal .noticias .alcaraz .tituloalcaraz {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    align-items: baseline;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 0px;
+    bottom: 40px;
   }
   .paginaprincipal .noticias .lakers {
     height: 50px;
@@ -522,6 +606,26 @@
     border-bottom-right-radius: 8px;
     margin: 0px;
   }
+  .paginaprincipal .noticias .bajandal {
+    height: 200px;
+  }
+  .paginaprincipal .noticias .bajandal .fotobajanadal {
+    width: 300px;
+    height: 200px;
+    display: flex;
+  }
+  .paginaprincipal .noticias .bajandal .titulobajanadal {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    align-items: baseline;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 0px;
+  }
   .paginaprincipal .noticias .entrenamientoseleccion {
     height: 200px;
   }
@@ -551,6 +655,26 @@
     display: flex;
   }
   .paginaprincipal .noticias .festejocheco .titulofestejocheco {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    align-items: baseline;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 0px;
+  }
+  .paginaprincipal .noticias .alcaraz {
+    height: 200px;
+  }
+  .paginaprincipal .noticias .alcaraz .fotoalcaraz {
+    width: 300px;
+    height: 200px;
+    display: flex;
+  }
+  .paginaprincipal .noticias .alcaraz .tituloalcaraz {
     position: relative;
     display: flex;
     flex-wrap: wrap;

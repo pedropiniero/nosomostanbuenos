@@ -66,6 +66,27 @@
                 bottom: 60px;
             }
         }
+        & .bajanadal{
+            height: 200px;
+            & .fotobajanadal{
+                width: 350px;
+                height: 200px;
+                display: flex;
+            }
+            & .titulobajanadal{
+                position:relative;
+                display: flex;
+                flex-wrap: wrap;
+                text-align: start;
+                align-items: baseline;
+                width: 350px;
+                background-color: rgba(0, 0, 0, 0.671);
+                border-top-right-radius: 8px;
+                border-bottom-right-radius: 8px; 
+                margin: 0px;
+                bottom: 60px;
+            }
+        }
         & .entrenamientoseleccion{
             height: 200px;
             & .fotoentrenamientoseleccion{
@@ -104,6 +125,27 @@
                 border-top-right-radius: 8px;
                 border-bottom-right-radius: 8px; 
                 margin: 0px;
+            }
+        }
+        & .alcaraz{
+            height: 200px;
+            & .fotoalcaraz{
+                width: 350px;
+                height: 200px;
+                display: flex;
+            }
+            & .tituloalcaraz{
+                position:relative;
+                display: flex;
+                flex-wrap: wrap;
+                text-align: start;
+                align-items: baseline;
+                width: 350px;
+                background-color: rgba(0, 0, 0, 0.671);
+                border-top-right-radius: 8px;
+                border-bottom-right-radius: 8px; 
+                margin: 0px;
+                bottom: 60px;
             }
         }
         & .lakers{
@@ -272,6 +314,27 @@
                     bottom: 40px;
                 }
             }
+            & .bajanadal{
+                height: 50px;
+                & .fotobajanadal{
+                    width: 200px;
+                    height: 100px;
+                    display: flex;
+                }
+                & .titulobajanadal{
+                    position:relative;
+                    display: flex;
+                    flex-wrap: wrap;
+                    text-align: start;
+                    align-items: baseline;
+                    width: 200px;
+                    background-color: rgba(0, 0, 0, 0.671);
+                    border-top-right-radius: 8px;
+                    border-bottom-right-radius: 8px; 
+                    margin: 0px;
+                    bottom:40px
+                }
+            }
             & .entrenamientoseleccion{
                 height: 50px;
                 & .fotoentrenamientoseleccion{
@@ -312,6 +375,27 @@
                     border-bottom-right-radius: 8px; 
                     margin: 0px;
                     bottom:30px;
+                }
+            }
+            & .alcaraz{
+                height: 50px;
+                & .fotoalcaraz{
+                    width: 200px;
+                    height: 100px;
+                    display: flex;
+                }
+                & .tituloalcaraz{
+                    position:relative;
+                    display: flex;
+                    flex-wrap: wrap;
+                    text-align: start;
+                    align-items: baseline;
+                    width: 200px;
+                    background-color: rgba(0, 0, 0, 0.671);
+                    border-top-right-radius: 8px;
+                    border-bottom-right-radius: 8px; 
+                    margin: 0px;
+                    bottom:40px
                 }
             }
             & .lakers{
@@ -529,6 +613,26 @@
                     margin: 0px;
                 }
             }
+            & .bajandal{
+                height: 200px;
+                & .fotobajanadal{
+                    width: 300px;
+                    height: 200px;
+                    display: flex;
+                }
+                & .titulobajanadal{
+                    position:relative;
+                    display: flex;
+                    flex-wrap: wrap;
+                    text-align: start;
+                    align-items: baseline;
+                    width: 300px;
+                    background-color: rgba(0, 0, 0, 0.671);
+                    border-top-right-radius: 8px;
+                    border-bottom-right-radius: 8px; 
+                    margin: 0px;
+                }
+            }
             & .entrenamientoseleccion{
                 height: 200px;
                 & .fotoentrenamientoseleccion{
@@ -557,6 +661,26 @@
                     display: flex;
                 }
                 & .titulofestejocheco{
+                    position:relative;
+                    display: flex;
+                    flex-wrap: wrap;
+                    text-align: start;
+                    align-items: baseline;
+                    width: 300px;
+                    background-color: rgba(0, 0, 0, 0.671);
+                    border-top-right-radius: 8px;
+                    border-bottom-right-radius: 8px; 
+                    margin: 0px;
+                }
+            }
+            & .alcaraz{
+                height: 200px;
+                & .fotoalcaraz{
+                    width: 300px;
+                    height: 200px;
+                    display: flex;
+                }
+                & .tituloalcaraz{
                     position:relative;
                     display: flex;
                     flex-wrap: wrap;
