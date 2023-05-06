@@ -5,7 +5,7 @@
     grid-template-areas:
     "header header header header"
     "nav nav nav nav"
-    "aside1 main main aside"
+    "section section section aside"
     "footer footer footer footer";
     & .fondopagina{
         grid-area: header;
@@ -13,13 +13,10 @@
     & .menu{
         grid-area: nav;
     }
-    & .publicidad1{
-        grid-area: aside1;
-    }
     & .contenidoprincipal{
-        grid-area: main;
+        grid-area: section;
     }
-    & .publicidad2{
+    & .publicidad{
         grid-area: aside;
     }
     & .piedepagina{

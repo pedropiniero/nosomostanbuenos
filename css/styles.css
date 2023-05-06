@@ -55,6 +55,7 @@ html {
 .contenidoprincipal {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .contenidoprincipal .noticias {
   color: rgb(255, 255, 255);
@@ -98,6 +99,7 @@ html {
   width: 400px;
   height: 250px;
   display: flex;
+  flex-wrap: wrap;
 }
 .festejoargentina .titulofestejoargentina {
   position: relative;
@@ -120,6 +122,7 @@ html {
   width: 400px;
   height: 250px;
   display: flex;
+  flex-wrap: wrap;
 }
 .largadaarabia .titulolargadaarabia {
   position: relative;
@@ -142,6 +145,7 @@ html {
   width: 400px;
   height: 250px;
   display: flex;
+  flex-wrap: wrap;
 }
 .festejopumas .titulofestejopumas {
   position: relative;
@@ -164,6 +168,7 @@ html {
   width: 400px;
   height: 250px;
   display: flex;
+  flex-wrap: wrap;
 }
 .bajanadal .titulobajanadal {
   position: relative;
@@ -186,6 +191,7 @@ html {
   width: 400px;
   height: 250px;
   display: flex;
+  flex-wrap: wrap;
 }
 .entrenamientoseleccion .tituloentrenamientoseleccion {
   position: relative;
@@ -208,8 +214,32 @@ html {
   width: 400px;
   height: 250px;
   display: flex;
+  flex-wrap: wrap;
 }
 .festejocheco .titulofestejocheco {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: start;
+  align-items: baseline;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.671);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin: 0px;
+  bottom: 40px;
+}
+
+.lakersstate {
+  height: 250px;
+}
+.lakersstate .fotolakersstate {
+  width: 400px;
+  height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.lakersstate .titulolakersstate {
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -230,6 +260,7 @@ html {
   width: 400px;
   height: 250px;
   display: flex;
+  flex-wrap: wrap;
 }
 .alcaraz .tituloalcaraz {
   position: relative;
@@ -252,6 +283,7 @@ html {
   width: 400px;
   height: 250px;
   display: flex;
+  flex-wrap: wrap;
 }
 .lakers .titulolakers {
   position: relative;
@@ -267,14 +299,7 @@ html {
   bottom: 40px;
 }
 
-.publicidad1 {
-  display: flex;
-  justify-content: start;
-  height: 800px;
-  width: 250px;
-}
-
-.publicidad2 {
+.publicidad {
   display: flex;
   justify-content: end;
   position: right;
@@ -385,7 +410,7 @@ html {
   display: grid;
   grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
   grid-template-rows: 0.1fr 0.01fr 1fr 0.1fr;
-  grid-template-areas: "header header header header" "nav nav nav nav" "aside1 main main aside" "footer footer footer footer";
+  grid-template-areas: "header header header header" "nav nav nav nav" "section section section aside" "footer footer footer footer";
 }
 .paginaprincipal .fondopagina {
   grid-area: header;
@@ -393,13 +418,10 @@ html {
 .paginaprincipal .menu {
   grid-area: nav;
 }
-.paginaprincipal .publicidad1 {
-  grid-area: aside1;
-}
 .paginaprincipal .contenidoprincipal {
-  grid-area: main;
+  grid-area: section;
 }
-.paginaprincipal .publicidad2 {
+.paginaprincipal .publicidad {
   grid-area: aside;
 }
 .paginaprincipal .piedepagina {
@@ -536,6 +558,26 @@ html {
     border-bottom-right-radius: 8px;
     margin: 0px;
   }
+  .paginaprincipal .lakersstate {
+    height: 200px;
+  }
+  .paginaprincipal .lakersstate .fotolakersstate {
+    width: 350px;
+    height: 200px;
+    display: flex;
+  }
+  .paginaprincipal .lakersstate .titulolakersstate {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    align-items: baseline;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 0px;
+  }
   .paginaprincipal .alcaraz {
     height: 200px;
   }
@@ -610,18 +652,12 @@ html {
   .paginaprincipal {
     grid-template-rows: 0.1fr 0.01fr 1fr 0.1fr;
   }
-  .paginaprincipal .publicidad1 {
+  .paginaprincipal .publicidad {
     height: 600px;
     width: 200px;
-    background-position: 380px;
-  }
-  .paginaprincipal .publicidad2 {
-    height: 600px;
-    width: 200px;
-    background-position: 450px;
   }
 }
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 980px) {
   .fondonstb {
     width: 600px;
     height: auto;
@@ -630,21 +666,29 @@ html {
     font-size: 10px;
   }
   .paginaprincipal {
+    display: grid;
+    grid-template-columns: 1fr;
     grid-template-rows: 0.1fr 0.01fr 1fr 0.1fr;
+    grid-template-areas: "header" "nav" "section" "footer";
   }
-  .paginaprincipal .publicidad1 {
-    height: 450px;
-    width: 200px;
-    background-position: 300px;
+  .paginaprincipal .fondopagina {
+    grid-area: header;
   }
-  .paginaprincipal .publicidad2 {
-    height: 450px;
-    width: 200px;
-    background-position: 340px;
+  .paginaprincipal .menu {
+    grid-area: nav;
+  }
+  .paginaprincipal .contenidoprincipal {
+    grid-area: section;
+  }
+  .paginaprincipal .piedepagina {
+    grid-area: footer;
+  }
+  .paginaprincipal .publicidad {
+    display: none;
   }
   .paginaprincipal .noticias {
     color: rgb(255, 255, 255);
-    margin: 0px;
+    margin: 10px;
     text-decoration: none;
     list-style-type: none;
     font-size: 10px;
@@ -653,12 +697,10 @@ html {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 60px 60px;
-    padding: 10px;
-    margin-bottom: 50px;
+    gap: 10px 10px;
   }
   .paginaprincipal .noticias .festejoargentina {
-    height: 50px;
+    height: 100px;
   }
   .paginaprincipal .noticias .festejoargentina .fotofestejoargentina {
     width: 200px;
@@ -679,7 +721,7 @@ html {
     bottom: 30px;
   }
   .paginaprincipal .noticias .largadaarabia {
-    height: 50px;
+    height: 100px;
   }
   .paginaprincipal .noticias .largadaarabia .fotolargadaarabia {
     width: 200px;
@@ -700,7 +742,7 @@ html {
     bottom: 30px;
   }
   .paginaprincipal .noticias .festejopumas {
-    height: 50px;
+    height: 100px;
   }
   .paginaprincipal .noticias .festejopumas .fotofestejopumas {
     width: 200px;
@@ -721,7 +763,7 @@ html {
     bottom: 40px;
   }
   .paginaprincipal .noticias .bajanadal {
-    height: 50px;
+    height: 100px;
   }
   .paginaprincipal .noticias .bajanadal .fotobajanadal {
     width: 200px;
@@ -742,7 +784,7 @@ html {
     bottom: 40px;
   }
   .paginaprincipal .noticias .entrenamientoseleccion {
-    height: 50px;
+    height: 100px;
   }
   .paginaprincipal .noticias .entrenamientoseleccion .fotoentrenamientoseleccion {
     width: 200px;
@@ -763,7 +805,7 @@ html {
     bottom: 30px;
   }
   .paginaprincipal .noticias .festejocheco {
-    height: 50px;
+    height: 100px;
   }
   .paginaprincipal .noticias .festejocheco .fotofestejocheco {
     width: 200px;
@@ -783,8 +825,29 @@ html {
     margin: 0px;
     bottom: 30px;
   }
+  .paginaprincipal .noticias .lakersstate {
+    height: 100px;
+  }
+  .paginaprincipal .noticias .lakersstate .fotolakersstate {
+    width: 200px;
+    height: 100px;
+    display: flex;
+  }
+  .paginaprincipal .noticias .lakersstate .titulolakersstate {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    align-items: baseline;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 0px;
+    bottom: 30px;
+  }
   .paginaprincipal .noticias .alcaraz {
-    height: 50px;
+    height: 100px;
   }
   .paginaprincipal .noticias .alcaraz .fotoalcaraz {
     width: 200px;
@@ -805,7 +868,7 @@ html {
     bottom: 40px;
   }
   .paginaprincipal .noticias .lakers {
-    height: 50px;
+    height: 100px;
   }
   .paginaprincipal .noticias .lakers .fotolakers {
     width: 200px;
@@ -915,7 +978,7 @@ html {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.1fr 0.01fr 1fr 0.1fr;
-    grid-template-areas: "header" "nav" "main" "footer";
+    grid-template-areas: "header" "nav" "section" "footer";
   }
   .paginaprincipal .fondopagina {
     grid-area: header;
@@ -924,15 +987,12 @@ html {
     grid-area: nav;
   }
   .paginaprincipal .contenidoprincipal {
-    grid-area: main;
+    grid-area: section;
   }
   .paginaprincipal .piedepagina {
     grid-area: footer;
   }
-  .paginaprincipal .publicidad1 {
-    display: none;
-  }
-  .paginaprincipal .publicidad2 {
+  .paginaprincipal .publicidad {
     display: none;
   }
   .paginaprincipal .fondonstb {
@@ -1074,6 +1134,26 @@ html {
     border-bottom-right-radius: 8px;
     margin: 0px;
   }
+  .paginaprincipal .noticias .lakersstate {
+    height: 200px;
+  }
+  .paginaprincipal .noticias .lakersstate .fotolakersstate {
+    width: 300px;
+    height: 200px;
+    display: flex;
+  }
+  .paginaprincipal .noticias .lakersstate .titulolakersstate {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    align-items: baseline;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 0px;
+  }
   .paginaprincipal .noticias .alcaraz {
     height: 200px;
   }
@@ -1204,7 +1284,7 @@ html {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.1fr 0.01fr 1fr 0.1fr;
-    grid-template-areas: "header" "nav" "main" "footer";
+    grid-template-areas: "header" "nav" "section" "footer";
   }
   .paginaprincipal .fondopagina {
     grid-area: header;
@@ -1213,7 +1293,7 @@ html {
     grid-area: nav;
   }
   .paginaprincipal .contenidoprincipal {
-    grid-area: main;
+    grid-area: section;
   }
   .paginaprincipal .piedepagina {
     grid-area: footer;

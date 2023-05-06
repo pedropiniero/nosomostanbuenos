@@ -13,6 +13,7 @@ $anchoimagennota: auto;
     width: $anchoimagenmenu;
     height: $altoimagenmenu;
     display: flex;
+    flex-wrap: wrap;
 }
 @mixin titulonotas{
     position:relative;

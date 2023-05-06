@@ -1,6 +1,7 @@
 .contenidoprincipal{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     & .noticias{
         color: rgb(255, 255, 255);
         margin: 10px;
@@ -84,6 +85,16 @@
         @include tamañofoto;
     }
     & .titulofestejocheco{
+        @include titulonotas;
+    }
+}
+
+.lakersstate{
+    @include espaciofoto;
+    & .fotolakersstate{
+        @include tamañofoto;
+    }
+    & .titulolakersstate{
         @include titulonotas;
     }
 }
