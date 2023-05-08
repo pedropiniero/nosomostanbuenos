@@ -188,6 +188,12 @@
                 margin: 0px;
             }
         }
+        & .fotodenotas{
+            height: 300px;
+            width: auto;
+            display: flex;
+            margin: 5px;
+        }
     }
 }
 
@@ -198,36 +204,6 @@
     }
     .paginaprincipal{
         grid-template-rows: 0.1fr 0.01fr 1fr 0.1fr;
-    }
-}
-
-@media screen and (max-width:950px) {
-    .fondonstb{
-        width: 640px;
-        height: auto;
-    }
-    .nombredepaginas{
-        font-size: 12px
-    }
-    .paginaprincipal{
-        grid-template-rows: 0.1fr 0.01fr 1fr 0.1fr;
-    }
-}
-
-@media screen and (max-width:880px) {
-    .fondonstb{
-        width: 600px;
-        height: auto;
-    }
-    .nombredepaginas{
-        font-size: 10px;
-    }
-    .paginaprincipal{
-        grid-template-rows: 0.1fr 0.01fr 1fr 0.1fr;
-        & .publicidad{
-            height: 600px;
-            width: 200px;
-        }
     }
 }
 
@@ -464,6 +440,12 @@
                     bottom:30px;
                 }
             }
+        }
+        & .fotodenotas{
+            height: 250px;
+            width: auto;
+            display: flex;
+            margin: 5px;
         }
     }
     .piedepagina{ 
@@ -775,6 +757,12 @@
                     margin: 0px;
                 }
             }
+        }
+        & .fotodenotas{
+            height: 180px;
+            width: auto;
+            display: flex;
+            margin: 5px;
         }
     }
     .piedepagina{ 

@@ -619,6 +619,12 @@ html {
     border-bottom-right-radius: 8px;
     margin: 0px;
   }
+  .paginaprincipal .fotodenotas {
+    height: 300px;
+    width: auto;
+    display: flex;
+    margin: 5px;
+  }
 }
 @media screen and (max-width: 1247px) {
   .fondonstb {
@@ -627,34 +633,6 @@ html {
   }
   .paginaprincipal {
     grid-template-rows: 0.1fr 0.01fr 1fr 0.1fr;
-  }
-}
-@media screen and (max-width: 950px) {
-  .fondonstb {
-    width: 640px;
-    height: auto;
-  }
-  .nombredepaginas {
-    font-size: 12px;
-  }
-  .paginaprincipal {
-    grid-template-rows: 0.1fr 0.01fr 1fr 0.1fr;
-  }
-}
-@media screen and (max-width: 880px) {
-  .fondonstb {
-    width: 600px;
-    height: auto;
-  }
-  .nombredepaginas {
-    font-size: 10px;
-  }
-  .paginaprincipal {
-    grid-template-rows: 0.1fr 0.01fr 1fr 0.1fr;
-  }
-  .paginaprincipal .publicidad {
-    height: 600px;
-    width: 200px;
   }
 }
 @media screen and (max-width: 980px) {
@@ -887,6 +865,12 @@ html {
     border-bottom-right-radius: 8px;
     margin: 0px;
     bottom: 30px;
+  }
+  .paginaprincipal .fotodenotas {
+    height: 250px;
+    width: auto;
+    display: flex;
+    margin: 5px;
   }
   .piedepagina {
     background-color: rgb(210, 210, 210);
@@ -1193,6 +1177,12 @@ html {
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     margin: 0px;
+  }
+  .paginaprincipal .fotodenotas {
+    height: 180px;
+    width: auto;
+    display: flex;
+    margin: 5px;
   }
   .piedepagina {
     background-color: rgb(210, 210, 210);
