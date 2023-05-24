@@ -148,9 +148,14 @@ html {
 }
 
 .tablas {
-  font-size: 16px;
+  font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 1px;
+  padding: 3px;
+}
+
+.escudo {
+  width: 24px;
+  height: 24px;
 }
 
 .entrenamientoriver {
