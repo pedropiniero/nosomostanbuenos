@@ -23,3 +23,58 @@
         grid-area: footer;
     }
 }
+
+.paginanoticias{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 0.5fr; 
+    grid-template-rows: 0.1fr 0.01fr 1fr 0.1fr;
+    grid-template-areas:
+    "header header header header"
+    "nav nav nav nav"
+    "section main main aside"
+    "footer footer footer footer";
+    & .fondopagina{
+        grid-area: header;
+    }
+    & .menu{
+        grid-area: nav;
+    }
+    & .tablas{
+        grid-area: section;
+    }
+    & .contenidonoticias{
+        grid-area: main;
+    }
+    & .publicidad{
+        grid-area: aside;
+    }
+    & .piedepagina{
+        grid-area: footer;
+    }
+}
+
+.paginanotas{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 0.5fr; 
+    grid-template-rows: 0.1fr 0.01fr 1fr 0.1fr;
+    grid-template-areas:
+    "header header header header"
+    "nav nav nav nav"
+    "section section section aside"
+    "footer footer footer footer";
+    & .fondopagina{
+        grid-area: header;
+    }
+    & .menu{
+        grid-area: nav;
+    }
+    & .contenidonotas{
+        grid-area: section;
+    }
+    & .publicidad{
+        grid-area: aside;
+    }
+    & .piedepagina{
+        grid-area: footer;
+    }
+}

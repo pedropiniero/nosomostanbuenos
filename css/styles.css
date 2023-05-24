@@ -71,16 +71,69 @@ html {
   gap: 10px 10px;
 }
 
+.contenidonoticias {
+  display: flex;
+  flex-wrap: wrap;
+}
+.contenidonoticias .noticias {
+  color: rgb(255, 255, 255);
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: arial;
+  gap: 10px 10px;
+  justify-content: space-evenly;
+}
+
+.contenidonotas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.contenidonotas .noticias {
+  color: rgb(255, 255, 255);
+  margin: 10px;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: arial;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px 10px;
+}
+
 .notas {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
+.notas .titulodenotas {
+  color: rgb(4, 4, 60);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Arial;
+  text-align: start;
+  width: 800px;
+  margin: 20px;
+}
+.notas .subtitulodenotas {
+  color: rgb(4, 4, 60);
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial;
+  align-items: start;
+}
 .notas .fotodenotas {
-  height: 360px;
-  width: auto;
+  height: auto;
+  width: 700px;
   display: flex;
-  margin: 5px;
+  margin: 10px;
 }
 .notas .textodenotas {
   color: black;
@@ -89,19 +142,27 @@ html {
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: justify;
+  width: 1000px;
   margin: 5px;
+  padding: 0px;
 }
 
-.festejoargentina {
+.tablas {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1px;
+}
+
+.entrenamientoriver {
   height: 250px;
 }
-.festejoargentina .fotofestejoargentina {
+.entrenamientoriver .fotoentrenamientoriver {
   width: 400px;
   height: 250px;
   display: flex;
   flex-wrap: wrap;
 }
-.festejoargentina .titulofestejoargentina {
+.entrenamientoriver .tituloentrenamientoriver {
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -115,16 +176,108 @@ html {
   bottom: 40px;
 }
 
-.largadaarabia {
+.formacionsub20 {
   height: 250px;
 }
-.largadaarabia .fotolargadaarabia {
+.formacionsub20 .fotoformacionsub20 {
   width: 400px;
   height: 250px;
   display: flex;
   flex-wrap: wrap;
 }
-.largadaarabia .titulolargadaarabia {
+.formacionsub20 .tituloformacionsub20 {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: start;
+  align-items: baseline;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.671);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin: 0px;
+  bottom: 40px;
+}
+
+.entrenamientoindependiente {
+  height: 250px;
+}
+.entrenamientoindependiente .fotoentrenamientoindependiente {
+  width: 400px;
+  height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.entrenamientoindependiente .tituloentrenamientoindependiente {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: start;
+  align-items: baseline;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.671);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin: 0px;
+  bottom: 40px;
+}
+
+.entrevistainsua {
+  height: 250px;
+}
+.entrevistainsua .fotoentrevistainsua {
+  width: 400px;
+  height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.entrevistainsua .tituloentrevistainsua {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: start;
+  align-items: baseline;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.671);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin: 0px;
+  bottom: 40px;
+}
+
+.planbarcelona {
+  height: 250px;
+}
+.planbarcelona .fotoplanbarcelona {
+  width: 400px;
+  height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.planbarcelona .tituloplanbarcelona {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: start;
+  align-items: baseline;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.671);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin: 0px;
+  bottom: 40px;
+}
+
+.leclercmonaco {
+  height: 250px;
+}
+.leclercmonaco .fotoleclercmonaco {
+  width: 400px;
+  height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.leclercmonaco .tituloleclercmonaco {
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -184,16 +337,16 @@ html {
   bottom: 40px;
 }
 
-.entrenamientoseleccion {
+.entrenamientoboca {
   height: 250px;
 }
-.entrenamientoseleccion .fotoentrenamientoseleccion {
+.entrenamientoboca .fotoentrenamientoboca {
   width: 400px;
   height: 250px;
   display: flex;
   flex-wrap: wrap;
 }
-.entrenamientoseleccion .tituloentrenamientoseleccion {
+.entrenamientoboca .tituloentrenamientoboca {
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -207,16 +360,16 @@ html {
   bottom: 40px;
 }
 
-.festejocheco {
+.indycar {
   height: 250px;
 }
-.festejocheco .fotofestejocheco {
+.indycar .fotoindycar {
   width: 400px;
   height: 250px;
   display: flex;
   flex-wrap: wrap;
 }
-.festejocheco .titulofestejocheco {
+.indycar .tituloindycar {
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -230,16 +383,16 @@ html {
   bottom: 40px;
 }
 
-.lakersstate {
+.heat {
   height: 250px;
 }
-.lakersstate .fotolakersstate {
+.heat .fotoheat {
   width: 400px;
   height: 250px;
   display: flex;
   flex-wrap: wrap;
 }
-.lakersstate .titulolakersstate {
+.heat .tituloheat {
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -253,16 +406,16 @@ html {
   bottom: 40px;
 }
 
-.alcaraz {
+.lyon {
   height: 250px;
 }
-.alcaraz .fotoalcaraz {
+.lyon .fotolyon {
   width: 400px;
   height: 250px;
   display: flex;
   flex-wrap: wrap;
 }
-.alcaraz .tituloalcaraz {
+.lyon .titulolyon {
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -428,6 +581,53 @@ html {
   grid-area: footer;
 }
 
+.paginanoticias {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
+  grid-template-rows: 0.1fr 0.01fr 1fr 0.1fr;
+  grid-template-areas: "header header header header" "nav nav nav nav" "section main main aside" "footer footer footer footer";
+}
+.paginanoticias .fondopagina {
+  grid-area: header;
+}
+.paginanoticias .menu {
+  grid-area: nav;
+}
+.paginanoticias .tablas {
+  grid-area: section;
+}
+.paginanoticias .contenidonoticias {
+  grid-area: main;
+}
+.paginanoticias .publicidad {
+  grid-area: aside;
+}
+.paginanoticias .piedepagina {
+  grid-area: footer;
+}
+
+.paginanotas {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
+  grid-template-rows: 0.1fr 0.01fr 1fr 0.1fr;
+  grid-template-areas: "header header header header" "nav nav nav nav" "section section section aside" "footer footer footer footer";
+}
+.paginanotas .fondopagina {
+  grid-area: header;
+}
+.paginanotas .menu {
+  grid-area: nav;
+}
+.paginanotas .contenidonotas {
+  grid-area: section;
+}
+.paginanotas .publicidad {
+  grid-area: aside;
+}
+.paginanotas .piedepagina {
+  grid-area: footer;
+}
+
 @media screen and (max-width: 1346px) {
   .fondonstb {
     width: 880px;
@@ -436,15 +636,15 @@ html {
   .paginaprincipal {
     grid-template-rows: 0.1fr 0.01fr 1fr 0.1fr;
   }
-  .paginaprincipal .festejoargentina {
+  .paginaprincipal .entrenamientoriver {
     height: 200px;
   }
-  .paginaprincipal .festejoargentina .fotofestejoargentina {
+  .paginaprincipal .entrenamientoriver .fotoentrenamientoriver {
     width: 350px;
     height: 200px;
     display: flex;
   }
-  .paginaprincipal .festejoargentina .titulofestejoargentina {
+  .paginaprincipal .entrenamientoriver .tituloentrenamientoriver {
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -456,15 +656,15 @@ html {
     border-bottom-right-radius: 8px;
     margin: 0px;
   }
-  .paginaprincipal .largadaarabia {
+  .paginaprincipal .leclercmonaco {
     height: 200px;
   }
-  .paginaprincipal .largadaarabia .fotolargadaarabia {
+  .paginaprincipal .leclercmonaco .fotoleclercmonaco {
     width: 350px;
     height: 200px;
     display: flex;
   }
-  .paginaprincipal .largadaarabia .titulolargadaarabia {
+  .paginaprincipal .leclercmonaco .tituloleclercmonaco {
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -518,15 +718,15 @@ html {
     margin: 0px;
     bottom: 60px;
   }
-  .paginaprincipal .entrenamientoseleccion {
+  .paginaprincipal .entrenamientoboca {
     height: 200px;
   }
-  .paginaprincipal .entrenamientoseleccion .fotoentrenamientoseleccion {
+  .paginaprincipal .entrenamientoboca .fotoentrenamientoboca {
     width: 350px;
     height: 200px;
     display: flex;
   }
-  .paginaprincipal .entrenamientoseleccion .tituloentrenamientoseleccion {
+  .paginaprincipal .entrenamientoboca .tituloentrenamientoboca {
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -538,15 +738,15 @@ html {
     border-bottom-right-radius: 8px;
     margin: 0px;
   }
-  .paginaprincipal .festejocheco {
+  .paginaprincipal .indycar {
     height: 200px;
   }
-  .paginaprincipal .festejocheco .fotofestejocheco {
+  .paginaprincipal .indycar .fotoindycar {
     width: 350px;
     height: 200px;
     display: flex;
   }
-  .paginaprincipal .festejocheco .titulofestejocheco {
+  .paginaprincipal .indycar .tituloindycar {
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -558,15 +758,15 @@ html {
     border-bottom-right-radius: 8px;
     margin: 0px;
   }
-  .paginaprincipal .lakersstate {
+  .paginaprincipal .heat {
     height: 200px;
   }
-  .paginaprincipal .lakersstate .fotolakersstate {
+  .paginaprincipal .heat .fotoheat {
     width: 350px;
     height: 200px;
     display: flex;
   }
-  .paginaprincipal .lakersstate .titulolakersstate {
+  .paginaprincipal .heat .tituloheat {
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -578,15 +778,15 @@ html {
     border-bottom-right-radius: 8px;
     margin: 0px;
   }
-  .paginaprincipal .alcaraz {
+  .paginaprincipal .lyon {
     height: 200px;
   }
-  .paginaprincipal .alcaraz .fotoalcaraz {
+  .paginaprincipal .lyon .fotolyon {
     width: 350px;
     height: 200px;
     display: flex;
   }
-  .paginaprincipal .alcaraz .tituloalcaraz {
+  .paginaprincipal .lyon .titulolyon {
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -677,15 +877,15 @@ html {
     justify-content: space-evenly;
     gap: 10px 10px;
   }
-  .paginaprincipal .noticias .festejoargentina {
+  .paginaprincipal .noticias .entrenamientoriver {
     height: 100px;
   }
-  .paginaprincipal .noticias .festejoargentina .fotofestejoargentina {
+  .paginaprincipal .noticias .entrenamientoriver .fotoentrenamientoriver {
     width: 200px;
     height: 100px;
     display: flex;
   }
-  .paginaprincipal .noticias .festejoargentina .titulofestejoargentina {
+  .paginaprincipal .noticias .entrenamientoriver .tituloentrenamientoriver {
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -698,15 +898,15 @@ html {
     margin: 0px;
     bottom: 30px;
   }
-  .paginaprincipal .noticias .largadaarabia {
+  .paginaprincipal .noticias .leclercmonaco {
     height: 100px;
   }
-  .paginaprincipal .noticias .largadaarabia .fotolargadaarabia {
+  .paginaprincipal .noticias .leclercmonaco .fotoleclercmonaco {
     width: 200px;
     height: 100px;
     display: flex;
   }
-  .paginaprincipal .noticias .largadaarabia .titulolargadaarabia {
+  .paginaprincipal .noticias .leclercmonaco .tituloleclercmonaco {
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -761,15 +961,15 @@ html {
     margin: 0px;
     bottom: 40px;
   }
-  .paginaprincipal .noticias .entrenamientoseleccion {
+  .paginaprincipal .noticias .entrenamientoboca {
     height: 100px;
   }
-  .paginaprincipal .noticias .entrenamientoseleccion .fotoentrenamientoseleccion {
+  .paginaprincipal .noticias .entrenamientoboca .fotoentrenamientoboca {
     width: 200px;
     height: 100px;
     display: flex;
   }
-  .paginaprincipal .noticias .entrenamientoseleccion .tituloentrenamientoseleccion {
+  .paginaprincipal .noticias .entrenamientoboca .tituloentrenamientoboca {
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -782,15 +982,15 @@ html {
     margin: 0px;
     bottom: 30px;
   }
-  .paginaprincipal .noticias .festejocheco {
+  .paginaprincipal .noticias .indycar {
     height: 100px;
   }
-  .paginaprincipal .noticias .festejocheco .fotofestejocheco {
+  .paginaprincipal .noticias .indycar .fotoindycar {
     width: 200px;
     height: 100px;
     display: flex;
   }
-  .paginaprincipal .noticias .festejocheco .titulofestejocheco {
+  .paginaprincipal .noticias .indycar .tituloindycar {
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -803,15 +1003,15 @@ html {
     margin: 0px;
     bottom: 30px;
   }
-  .paginaprincipal .noticias .lakersstate {
+  .paginaprincipal .noticias .heat {
     height: 100px;
   }
-  .paginaprincipal .noticias .lakersstate .fotolakersstate {
+  .paginaprincipal .noticias .heat .fotoheat {
     width: 200px;
     height: 100px;
     display: flex;
   }
-  .paginaprincipal .noticias .lakersstate .titulolakersstate {
+  .paginaprincipal .noticias .heat .tituloheat {
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -824,15 +1024,15 @@ html {
     margin: 0px;
     bottom: 30px;
   }
-  .paginaprincipal .noticias .alcaraz {
+  .paginaprincipal .noticias .lyon {
     height: 100px;
   }
-  .paginaprincipal .noticias .alcaraz .fotoalcaraz {
+  .paginaprincipal .noticias .lyon .fotolyon {
     width: 200px;
     height: 100px;
     display: flex;
   }
-  .paginaprincipal .noticias .alcaraz .tituloalcaraz {
+  .paginaprincipal .noticias .lyon .titulolyon {
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -998,15 +1198,15 @@ html {
     gap: 10px 10px;
     margin: 10px;
   }
-  .paginaprincipal .noticias .festejoargentina {
+  .paginaprincipal .noticias .entrenamientoriver {
     height: 200px;
   }
-  .paginaprincipal .noticias .festejoargentina .fotofestejoargentina {
+  .paginaprincipal .noticias .entrenamientoriver .fotoentrenamientoriver {
     width: 300px;
     height: 200px;
     display: flex;
   }
-  .paginaprincipal .noticias .festejoargentina .titulofestejoargentina {
+  .paginaprincipal .noticias .entrenamientoriver .tituloentrenamientoriver {
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -1018,15 +1218,15 @@ html {
     border-bottom-right-radius: 8px;
     margin: 0px;
   }
-  .paginaprincipal .noticias .largadaarabia {
+  .paginaprincipal .noticias .leclercmonaco {
     height: 200px;
   }
-  .paginaprincipal .noticias .largadaarabia .fotolargadaarabia {
+  .paginaprincipal .noticias .leclercmonaco .fotoleclercmonaco {
     width: 300px;
     height: 200px;
     display: flex;
   }
-  .paginaprincipal .noticias .largadaarabia .titulolargadaarabia {
+  .paginaprincipal .noticias .leclercmonaco .tituloleclercmonaco {
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -1078,15 +1278,15 @@ html {
     border-bottom-right-radius: 8px;
     margin: 0px;
   }
-  .paginaprincipal .noticias .entrenamientoseleccion {
+  .paginaprincipal .noticias .entrenamientoboca {
     height: 200px;
   }
-  .paginaprincipal .noticias .entrenamientoseleccion .fotoentrenamientoseleccion {
+  .paginaprincipal .noticias .entrenamientoboca .fotoentrenamientoboca {
     width: 300px;
     height: 200px;
     display: flex;
   }
-  .paginaprincipal .noticias .entrenamientoseleccion .tituloentrenamientoseleccion {
+  .paginaprincipal .noticias .entrenamientoboca .tituloentrenamientoboca {
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -1098,15 +1298,15 @@ html {
     border-bottom-right-radius: 8px;
     margin: 0px;
   }
-  .paginaprincipal .noticias .festejocheco {
+  .paginaprincipal .noticias .indycar {
     height: 200px;
   }
-  .paginaprincipal .noticias .festejocheco .fotofestejocheco {
+  .paginaprincipal .noticias .indycar .fotoindycar {
     width: 300px;
     height: 200px;
     display: flex;
   }
-  .paginaprincipal .noticias .festejocheco .titulofestejocheco {
+  .paginaprincipal .noticias .indycar .tituloindycar {
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -1118,15 +1318,15 @@ html {
     border-bottom-right-radius: 8px;
     margin: 0px;
   }
-  .paginaprincipal .noticias .lakersstate {
+  .paginaprincipal .noticias .heat {
     height: 200px;
   }
-  .paginaprincipal .noticias .lakersstate .fotolakersstate {
+  .paginaprincipal .noticias .heat .fotoheats {
     width: 300px;
     height: 200px;
     display: flex;
   }
-  .paginaprincipal .noticias .lakersstate .titulolakersstate {
+  .paginaprincipal .noticias .heat .tituloheat {
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -1138,15 +1338,15 @@ html {
     border-bottom-right-radius: 8px;
     margin: 0px;
   }
-  .paginaprincipal .noticias .alcaraz {
+  .paginaprincipal .noticias .lyon {
     height: 200px;
   }
-  .paginaprincipal .noticias .alcaraz .fotoalcaraz {
+  .paginaprincipal .noticias .lyon .fotolyon {
     width: 300px;
     height: 200px;
     display: flex;
   }
-  .paginaprincipal .noticias .alcaraz .tituloalcaraz {
+  .paginaprincipal .noticias .lyon .titulolyon {
     position: relative;
     display: flex;
     flex-wrap: wrap;

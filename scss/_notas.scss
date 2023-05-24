@@ -17,10 +17,53 @@
     }
 }
 
+.contenidonoticias{
+    display: flex;
+    flex-wrap: wrap;
+    & .noticias{
+        color: rgb(255, 255, 255);
+        margin: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        text-decoration: none;
+        list-style-type: none;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: arial;
+        gap: 10px 10px;
+        justify-content: space-evenly;
+    }
+}
+
+.contenidonotas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    & .noticias{
+        color: rgb(255, 255, 255);
+        margin: 10px;
+        text-decoration: none;
+        list-style-type: none;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: arial;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 10px 10px;
+    }
+}
+
 .notas{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    & .titulodenotas{
+        @include titulonotas;
+    }
+    & .subtitulodenotas{
+        @include subtitulonotas;
+    }
     & .fotodenotas{
         @include fotonotas;
     }
@@ -29,23 +72,69 @@
     }
 }
 
-.festejoargentina{
+.tablas{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1px
+}
+
+.entrenamientoriver{
     @include espaciofoto;
-    & .fotofestejoargentina{
+    & .fotoentrenamientoriver{
         @include tamañofoto;
     }
-    & .titulofestejoargentina{
-        @include titulonotas;
+    & .tituloentrenamientoriver{
+        @include titulonoticias;
     }
 }
 
-.largadaarabia{
+.formacionsub20{
     @include espaciofoto;
-    & .fotolargadaarabia{
+    & .fotoformacionsub20{
         @include tamañofoto;
     }
-    & .titulolargadaarabia{
-        @include titulonotas;
+    & .tituloformacionsub20{
+        @include titulonoticias;
+    }
+}
+
+.entrenamientoindependiente{
+    @include espaciofoto;
+    & .fotoentrenamientoindependiente{
+        @include tamañofoto;
+    }
+    & .tituloentrenamientoindependiente{
+        @include titulonoticias;
+    }
+}
+
+.entrevistainsua{
+    @include espaciofoto;
+    & .fotoentrevistainsua{
+        @include tamañofoto;
+    }
+    & .tituloentrevistainsua{
+        @include titulonoticias;
+    }
+}
+
+.planbarcelona{
+    @include espaciofoto;
+    & .fotoplanbarcelona{
+        @include tamañofoto;
+    }
+    & .tituloplanbarcelona{
+        @include titulonoticias;
+    }
+}
+
+.leclercmonaco{
+    @include espaciofoto;
+    & .fotoleclercmonaco{
+        @include tamañofoto;
+    }
+    & .tituloleclercmonaco{
+        @include titulonoticias;
     }
 }
 
@@ -55,7 +144,7 @@
         @include tamañofoto;
     }
     & .titulofestejopumas{
-        @include titulonotas;
+        @include titulonoticias;
     }
 }
 
@@ -65,47 +154,47 @@
         @include tamañofoto;
     }
     & .titulobajanadal{
-        @include titulonotas;
+        @include titulonoticias;
     }
 }
 
-.entrenamientoseleccion{
+.entrenamientoboca{
     @include espaciofoto;
-    & .fotoentrenamientoseleccion{
+    & .fotoentrenamientoboca{
         @include tamañofoto;
     }
-    & .tituloentrenamientoseleccion{
-        @include titulonotas;
+    & .tituloentrenamientoboca{
+        @include titulonoticias;
     }
 }
 
-.festejocheco{
+.indycar{
     @include espaciofoto;
-    & .fotofestejocheco{
+    & .fotoindycar{
         @include tamañofoto;
     }
-    & .titulofestejocheco{
-        @include titulonotas;
+    & .tituloindycar{
+        @include titulonoticias;
     }
 }
 
-.lakersstate{
+.heat{
     @include espaciofoto;
-    & .fotolakersstate{
+    & .fotoheat{
         @include tamañofoto;
     }
-    & .titulolakersstate{
-        @include titulonotas;
+    & .tituloheat{
+        @include titulonoticias;
     }
 }
 
-.alcaraz{
+.lyon{
     @include espaciofoto;
-    & .fotoalcaraz{
+    & .fotolyon{
         @include tamañofoto;
     }
-    & .tituloalcaraz{
-        @include titulonotas;
+    & .titulolyon{
+        @include titulonoticias;
     }
 }
 
@@ -115,6 +204,6 @@
         @include tamañofoto;
     }
     & .titulolakers{
-        @include titulonotas;
+        @include titulonoticias;
     }
 }

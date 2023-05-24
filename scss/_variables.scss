@@ -4,8 +4,8 @@ $colorpiedepagina: rgb(210, 210, 210);
 $colortitulonotas: rgba(0, 0, 0, 0.671);
 $altoimagenmenu: 250px;
 $anchoimagenmenu: 400px;
-$altoimagennota: 360px;
-$anchoimagennota: auto;
+$altoimagennota: auto;
+$anchoimagennota: 700px;
 @mixin espaciofoto{
     height: 250px;
 }
@@ -15,7 +15,7 @@ $anchoimagennota: auto;
     display: flex;
     flex-wrap: wrap;
 }
-@mixin titulonotas{
+@mixin titulonoticias{
     position:relative;
     display: flex;
     flex-wrap: wrap;
@@ -32,7 +32,7 @@ $anchoimagennota: auto;
     height: $altoimagennota;
     width: $anchoimagennota;
     display: flex;
-    margin: 5px;
+    margin: 10px;
 }
 @mixin textonotas {
     color: black;
@@ -41,8 +41,27 @@ $anchoimagennota: auto;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
+    width: 1000px;
     margin: 5px;
+    padding: 0px;
 }
+@mixin titulonotas {
+    color: rgb(4, 4, 60);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial;
+    text-align: start;
+    width: 800px;
+    margin: 20px;
+}
+@mixin subtitulonotas {
+    color: rgb(4,4,60);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial;
+    align-items: start;
+}
+
 @keyframes saltos{
     0% {
         bottom: 35px;
