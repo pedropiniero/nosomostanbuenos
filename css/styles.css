@@ -840,6 +840,50 @@ html {
     grid-template-rows: 0.1fr 0.01fr 1fr 0.1fr;
   }
 }
+@media screen and (max-width: 1247px) {
+  .fondonstb {
+    width: 680px;
+    height: auto;
+  }
+  .paginaprincipal {
+    grid-template-rows: 0.1fr 0.01fr 1fr 0.1fr;
+  }
+  .paginanotas .fondonstb {
+    width: 380px;
+    height: auto;
+  }
+  .paginanotas .nombredepaginas {
+    font-size: 10px;
+  }
+  .paginanotas .noticias {
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: arial;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px 10px;
+  }
+  .paginanotas .fotodenotas {
+    width: 500px;
+    height: 300px;
+  }
+  .paginanotas .textodenotas {
+    width: 600px;
+    font-size: 14px;
+  }
+  .paginanotas .titulodenotas {
+    width: 600px;
+    font-size: 30px;
+  }
+  .paginanotas .subtitulodenotas {
+    font-size: 25px;
+  }
+}
 @media screen and (max-width: 980px) {
   .fondonstb {
     width: 600px;
@@ -1076,6 +1120,367 @@ html {
     width: auto;
     display: flex;
     margin: 5px;
+  }
+  .paginanoticias {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 0.01fr 1fr 0.1fr;
+    grid-template-areas: "header header" "nav nav" "section main" "footer";
+  }
+  .paginanoticias .fondopagina {
+    grid-area: header;
+  }
+  .paginanoticias .menu {
+    grid-area: nav;
+  }
+  .paginanoticias .contenidoprincipal {
+    grid-area: main;
+  }
+  .paginanoticias.tablas {
+    grid-area: section;
+  }
+  .paginanoticias .piedepagina {
+    grid-area: footer;
+  }
+  .paginanoticias .publicidad {
+    display: none;
+  }
+  .paginanoticias .fondonstb {
+    width: 380px;
+    height: auto;
+  }
+  .paginanoticias .nombredepaginas {
+    font-size: 10px;
+  }
+  .paginanoticias .noticias {
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: arial;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px 10px;
+  }
+  .paginanoticias .noticias .entrenamientoriver {
+    height: 150px;
+  }
+  .paginanoticias .noticias .entrenamientoriver .fotoentrenamientoriver {
+    width: 250px;
+    height: 150px;
+    display: flex;
+  }
+  .paginanoticias .noticias .entrenamientoriver .tituloentrenamientoriver {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    align-items: baseline;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 0px;
+  }
+  .paginanoticias .noticias .entrenamientoboca {
+    height: 150px;
+  }
+  .paginanoticias .noticias .entrenamientoboca .fotoentrenamientoboca {
+    width: 250px;
+    height: 150px;
+    display: flex;
+  }
+  .paginanoticias .noticias .entrenamientoboca .tituloentrenamientoboca {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    align-items: baseline;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 0px;
+  }
+  .paginanoticias .noticias .formacionsub20 {
+    height: 150px;
+  }
+  .paginanoticias .noticias .formacionsub20 .fotoformacionsub20 {
+    width: 250px;
+    height: 150px;
+    display: flex;
+  }
+  .paginanoticias .noticias .formacionsub20 .tituloformacionsub20 {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    align-items: baseline;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 0px;
+  }
+  .paginanoticias .noticias .entrenamientoindependiente {
+    height: 150px;
+  }
+  .paginanoticias .noticias .entrenamientoindependiente .fotoentrenamientoindependiente {
+    width: 250px;
+    height: 150px;
+    display: flex;
+  }
+  .paginanoticias .noticias .entrenamientoindependiente .tituloentrenamientoindependiente {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    align-items: baseline;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 0px;
+  }
+  .paginanoticias .noticias .entrevistainsua {
+    height: 150px;
+  }
+  .paginanoticias .noticias .entrevistainsua .fotoentrevistainsua {
+    width: 250px;
+    height: 150px;
+    display: flex;
+  }
+  .paginanoticias .noticias .entrevistainsua .tituloentrevistainsua {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    align-items: baseline;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 0px;
+  }
+  .paginanoticias .noticias .planbarcelona {
+    height: 150px;
+  }
+  .paginanoticias .noticias .planbarcelona .fotoplanbarcelona {
+    width: 250px;
+    height: 150px;
+    display: flex;
+  }
+  .paginanoticias .noticias .planbarcelona .tituloplanbarcelona {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    align-items: baseline;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 0px;
+  }
+  .paginanoticias .noticias .leclercmonaco {
+    height: 150px;
+  }
+  .paginanoticias .noticias .leclercmonaco .fotoleclercmonaco {
+    width: 250px;
+    height: 150px;
+    display: flex;
+  }
+  .paginanoticias .noticias .leclercmonaco .tituloleclercmonaco {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    align-items: baseline;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 0px;
+  }
+  .paginanoticias .noticias .indycar {
+    height: 150px;
+  }
+  .paginanoticias .noticias .indycar .fotoindycar {
+    width: 250px;
+    height: 150px;
+    display: flex;
+  }
+  .paginanoticias .noticias .indycar .tituloindycar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    align-items: baseline;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 0px;
+  }
+  .paginanoticias .noticias .festejopumas {
+    height: 150px;
+  }
+  .paginanoticias .noticias .festejopumas .fotofestejopumas {
+    width: 250px;
+    height: 150px;
+    display: flex;
+  }
+  .paginanoticias .noticias .festejopumas .titulofestejopumas {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    align-items: baseline;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 0px;
+  }
+  .paginanoticias .noticias .lakers {
+    height: 150px;
+  }
+  .paginanoticias .noticias .lakers .fotolakers {
+    width: 250px;
+    height: 150px;
+    display: flex;
+  }
+  .paginanoticias .noticias .lakers .titulolakers {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    align-items: baseline;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 0px;
+  }
+  .paginanoticias .noticias .heat {
+    height: 150px;
+  }
+  .paginanoticias .noticias .heat .fotoheat {
+    width: 250px;
+    height: 150px;
+    display: flex;
+  }
+  .paginanoticias .noticias .heat .tituloheat {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    align-items: baseline;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 0px;
+  }
+  .paginanoticias .noticias .bajanadal {
+    height: 150px;
+  }
+  .paginanoticias .noticias .bajanadal .fotobajanadal {
+    width: 250px;
+    height: 150px;
+    display: flex;
+  }
+  .paginanoticias .noticias .bajanadal .titulobajanadal {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    align-items: baseline;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 0px;
+  }
+  .paginanoticias .noticias .lyon {
+    height: 150px;
+  }
+  .paginanoticias .noticias .lyon .fotolyon {
+    width: 250px;
+    height: 150px;
+    display: flex;
+  }
+  .paginanoticias .noticias .lyon .titulolyon {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    align-items: baseline;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 0px;
+  }
+  .paginanotas {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.01fr 1fr 0.1fr;
+    grid-template-areas: "header" "nav" "section" "footer";
+  }
+  .paginanotas .fondopagina {
+    grid-area: header;
+  }
+  .paginanotas .menu {
+    grid-area: nav;
+  }
+  .paginanotas .contenidonotas {
+    grid-area: section;
+  }
+  .paginanotas .piedepagina {
+    grid-area: footer;
+  }
+  .paginanotas .publicidad {
+    display: none;
+  }
+  .paginanotas .fondonstb {
+    width: 380px;
+    height: auto;
+  }
+  .paginanotas .nombredepaginas {
+    font-size: 10px;
+  }
+  .paginanotas .noticias {
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: arial;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px 10px;
+  }
+  .paginanotas .fotodenotas {
+    width: 500px;
+    height: 300px;
+  }
+  .paginanotas .textodenotas {
+    width: 600px;
+    font-size: 14px;
+  }
+  .paginanotas .titulodenotas {
+    width: 600px;
+    font-size: 30px;
+  }
+  .paginanotas .subtitulodenotas {
+    font-size: 25px;
   }
   .piedepagina {
     background-color: rgb(210, 210, 210);
@@ -1326,7 +1731,7 @@ html {
   .paginaprincipal .noticias .heat {
     height: 200px;
   }
-  .paginaprincipal .noticias .heat .fotoheats {
+  .paginaprincipal .noticias .heat .fotoheat {
     width: 300px;
     height: 200px;
     display: flex;
@@ -1472,6 +1877,226 @@ html {
     text-align: end;
     gap: 5px 5px;
     margin-top: 10px;
+  }
+  .paginanoticias {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.01fr 1fr 0.7fr 0.1fr;
+    grid-template-areas: "header" "nav" "main" "section" "footer";
+  }
+  .paginanoticias .fondopagina {
+    grid-area: header;
+  }
+  .paginanoticias .menu {
+    grid-area: nav;
+  }
+  .paginanoticias .contenidoprincipal {
+    grid-area: main;
+  }
+  .paginanoticias.tablas {
+    grid-area: section;
+  }
+  .paginanoticias .piedepagina {
+    grid-area: footer;
+  }
+  .paginanoticias .publicidad {
+    display: none;
+  }
+  .paginanoticias .fondonstb {
+    width: 380px;
+    height: auto;
+  }
+  .paginanoticias .nombredepaginas {
+    font-size: 10px;
+  }
+  .paginanoticias .noticias {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: arial;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 10px;
+    margin: 10px;
+  }
+  .paginanoticias .noticias .entrenamientoriver {
+    height: 200px;
+  }
+  .paginanoticias .noticias .entrenamientoriver .fotoentrenamientoriver {
+    width: 300px;
+    height: 200px;
+    display: flex;
+  }
+  .paginanoticias .noticias .entrenamientoriver .tituloentrenamientoriver {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    align-items: baseline;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 0px;
+  }
+  .paginanoticias .noticias .entrenamientoboca {
+    height: 200px;
+  }
+  .paginanoticias .noticias .entrenamientoboca .fotoentrenamientoboca {
+    width: 300px;
+    height: 200px;
+    display: flex;
+  }
+  .paginanoticias .noticias .entrenamientoboca .tituloentrenamientoboca {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    align-items: baseline;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 0px;
+  }
+  .paginanoticias .noticias .formacionsub20 {
+    height: 200px;
+  }
+  .paginanoticias .noticias .formacionsub20 .fotoformacionsub20 {
+    width: 300px;
+    height: 200px;
+    display: flex;
+  }
+  .paginanoticias .noticias .formacionsub20 .tituloformacionsub20 {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    align-items: baseline;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 0px;
+  }
+  .paginanoticias .noticias .entrenamientoindependiente {
+    height: 200px;
+  }
+  .paginanoticias .noticias .entrenamientoindependiente .fotoentrenamientoindependiente {
+    width: 300px;
+    height: 200px;
+    display: flex;
+  }
+  .paginanoticias .noticias .entrenamientoindependiente .tituloentrenamientoindependiente {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    align-items: baseline;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 0px;
+  }
+  .paginanoticias .noticias .entrevistainsua {
+    height: 200px;
+  }
+  .paginanoticias .noticias .entrevistainsua .fotoentrevistainsua {
+    width: 300px;
+    height: 200px;
+    display: flex;
+  }
+  .paginanoticias .noticias .entrevistainsua .tituloentrevistainsua {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    align-items: baseline;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 0px;
+  }
+  .paginanoticias .noticias .planbarcelona {
+    height: 200px;
+  }
+  .paginanoticias .noticias .planbarcelona .fotoplanbarcelona {
+    width: 300px;
+    height: 200px;
+    display: flex;
+  }
+  .paginanoticias .noticias .planbarcelona .tituloplanbarcelona {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    align-items: baseline;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 0px;
+  }
+  .paginanotas {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.01fr 1fr 0.1fr;
+    grid-template-areas: "header" "nav" "section" "footer";
+  }
+  .paginanotas .fondopagina {
+    grid-area: header;
+  }
+  .paginanotas .menu {
+    grid-area: nav;
+  }
+  .paginanotas .contenidonotas {
+    grid-area: section;
+  }
+  .paginanotas .piedepagina {
+    grid-area: footer;
+  }
+  .paginanotas .publicidad {
+    display: none;
+  }
+  .paginanotas .fondonstb {
+    width: 380px;
+    height: auto;
+  }
+  .paginanotas .nombredepaginas {
+    font-size: 10px;
+  }
+  .paginanotas .noticias {
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: arial;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px 10px;
+  }
+  .paginanotas .fotodenotas {
+    width: 400px;
+    height: 250px;
+  }
+  .paginanotas .textodenotas {
+    width: 450px;
+    font-size: 12px;
+  }
+  .paginanotas .titulodenotas {
+    width: 350px;
+    font-size: 20px;
+  }
+  .paginanotas .subtitulodenotas {
+    font-size: 15px;
   }
 }
 @media screen and (max-width: 500px) {
